@@ -1,0 +1,6 @@
+print("=== Membership Application ===\n")
+fname = input('Please enter the applicants first name: ')
+lname = input('Last name: ')
+year, month, date = input('Your birthday (year month date): ').split()
+bless = input('Your blessing: ')
+print(f"\nWelcome {lname}, {fname} ({year} / {month} / {date} , age {2022-int(year)}) Peace")

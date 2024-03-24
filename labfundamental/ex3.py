@@ -1,0 +1,5 @@
+print("Welcome to the BMI Helper for Seniors!\n")
+height = int(input('Please enter height (cm): '))
+weight = int(input('Please enter weight (kg): '))
+print(f"Your BMI is {(weight/height**2)*10000}")
+print(f"Your BMI is {(weight/height**2)*10000:.2f}")
